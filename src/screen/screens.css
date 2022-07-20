@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+    align-self: center;
+
+}
+.table{
+    border-radius: 7em;
+    position: absolute;
+    left: 50%;
+    box-sizing: border-box;
+    transform: translate(-40%,-50%);
+    top: 50%;
+    padding-left: 50px ;
+    height: 60%;
+    width: 80%;
+    align-items: center;
+    border: 20rem;
+}

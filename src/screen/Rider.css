@@ -1,0 +1,110 @@
+*{
+  box-sizing: border-box;
+}
+.Rider button{
+    color: white;
+    background-color: green;
+    border: none;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+.Rider img{
+    margin-top: 8rem;
+}
+.rider-box img{
+  border-radius: 50%;
+  align-content: center;
+  align-items: center;
+  margin-left: 10rem;
+}
+
+.heading1{
+   align-items: center;
+   justify-content: center;
+   margin-left: 30rem;
+}
+.heading {
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    position: absolute;
+    left: 50%;
+    box-sizing: border-box;
+    transform: translate(-50%, -50%);
+    top: 15%;
+    margin-top: 8rem;
+  }
+  .heading img{
+    border-radius: 50%;
+  }
+  .heading h1 {
+    padding-left: 2%;
+    color: beige;
+    align-content: center;
+    align-items: center;
+    margin-left: 0.6rem;
+  }
+.rider-box {
+    width: 550px;
+    height: 700px;
+    background-color: white;
+    border-radius: 6em;
+    position: absolute;
+    left: 50%;
+    box-sizing: border-box;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    padding-left: 50px ;
+    margin-top: 10rem;
+    margin-left: 9rem;
+  }
+  .rider-box h1 {
+    color: black;
+    font-size: 1cm;
+    align-items: center;
+    padding-top: 2.5rem;
+    padding-left: 4.2rem;
+  }
+  .rider-box label {
+    padding-left: 0.3rem;
+    padding-top: 0.5rem;
+    margin: 0;
+    font-weight: bold;
+  }
+  .form{
+color: black;
+  }
+  .rider-box input {
+    width: 80%;
+    height: 30px;
+    margin-top: 1rem;
+    padding: 0;
+  }
+  .rider-box input[type="text"],[type="number"] {
+    margin-left: 10px;
+    width: 80%;
+    height: 30px;
+    margin-bottom: 25px;
+    padding: 0;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid silver;
+    outline: none;
+  }
+  .rider-box button {
+    width: 70%;
+    height: 30px;
+    margin-left: 2.3rem;
+    border: none;
+    outline: none;
+    background-color: blueviolet;
+    color: white;
+    margin-top: 2rem;
+    font-size: 0.5cm;
+  }
+  .rider-box button:hover {
+    color: whitesmoke;
+    background: green;
+}

@@ -1,0 +1,86 @@
+.login-box{
+  width: 500px;
+  height: 400px;
+  background-color: white;
+  position: absolute;
+  left: 50%;
+  box-sizing: border-box;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  padding-left: 50px ;
+}
+.login-box h1{
+  color: black;
+  font-size: 1cm;
+  font-family: 'Times New Roman';
+  align-items: center;
+  padding-left: 5rem;
+  padding-top: 4rem;
+}
+.login-box label{
+   font-family: 'Times New Roman';
+padding-left: 50px;
+padding: 0;
+margin: 0;
+font-weight: bold;
+}
+.login-box input{
+  width: 80%;
+  height: 30px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  padding: 0;
+}
+.login-box input[type="password"],[type="email"]{
+  margin-left: 10px;
+  width: 80%;
+  height: 30px;
+  margin-bottom: 25px;
+  padding: 0;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid silver;
+  outline: none;
+}
+.login-box button{
+  width: 70%;
+  height: 30px;
+  margin-left: 2.3rem;
+  border: none;
+  outline: none;
+  background-color:blueviolet;
+  color:black;
+  margin-top: 2rem;
+  font-size: 0.5cm;
+  font-family: 'Times new roman';
+}
+.login-box button:hover{
+  color: whitesmoke;
+  background: green;
+}
+.login-box a{
+  color: black;
+  text-decoration: none;
+  font-size: 0.4cm;
+   font-family: 'Times new roman';
+  margin-bottom: 4rem;
+  padding-left: 15rem;
+}
+.app {
+  display: grid;
+  place-items: center;
+  margin-top: 2rem;
+  margin-left: 12rem;
+}
+
+.todo_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60vw;
+  height: 16vh;
+  border: 1px solid lightgray;
+  margin-bottom: 10px !important;
+  color: green;
+  background-color: white;
+}

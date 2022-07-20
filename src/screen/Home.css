@@ -1,0 +1,47 @@
+.totalusers{
+    display: flex;
+    flex-direction: row;
+}
+.totaldonations{
+    display: flex;
+    flex-direction: row;
+}
+.totalusers{
+   color: blueviolet;
+   background-color: white;
+    box-sizing: border-box;
+    border: 2px solid green;
+    width: 300px;
+    height: 150px;
+    padding-left: 2rem;
+    border-radius: 2rem;
+    align-content: center;
+    align-items: center;
+}
+.totalusers h1{
+    align-self: center;
+    color:blueviolet;
+    size: 5rem;
+}
+.totalusers h3{
+    align-self: center;
+    color:blueviolet;
+    size: 10rem;
+    padding-left: 30px;
+}
+.totaldonations{
+    background-color: white;
+     box-sizing: border-box;
+     border: 2px solid green;
+     color: blueviolet;
+     width: 300px;
+     height: 150px;
+     padding-left: 2rem;
+     border-radius: 2rem;
+     align-content: center;
+     align-items: center;
+ }
+ .totaldonations h3{
+  padding-left: 1rem;
+  color: blueviolet;
+ }
